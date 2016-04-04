@@ -1,0 +1,3357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/jquery-2.1.4.js" type="text/javascript"></script>
+		<script src="js/myfocus-2.0.1.min.js" type="text/javascript"></script>
+		<script src="js/mf-pattern/mF_kdui.js" type="text/javascript"></script>
+		<script src="js/jquery.simplemodal-1.4.4.js" type="text/javascript"></script>
+		<script src="js/tb.js" type="text/javascript"></script>
+		<link href="reset.css" rel="stylesheet" type="text/css">
+		<link href="js/mf-pattern/mF_kdui.css" rel="stylesheet" type="text/css">
+		<link href="tb.css" rel="stylesheet" type="text/css">
+		<title></title>
+		<script type="text/javascript">
+			myFocus.set({
+				id:"ad1",
+				pattern:"mF_kdui"
+			});
+			myFocus.set({
+				id:"ad2",
+				pattern:"mF_kdui"
+			});
+		</script>
+	</head>
+	<body>
+	<div class="top">
+		<div class="title">
+			<div class="title_left">
+				<ul>
+					<li class="arrow white" id="personalx"><a href="#" >灼眼繁华</a></li>
+						<div class="personal" id="pp">
+							<div class="personal_top">
+								<div class="personal_top_left">
+									<img src="img/tou.png">
+								</div>
+								<div class="personal_top_right">
+									<p class="personal_top_right_top"><a class="sperate1">账户管理</a><a class="sperate2">退出</a></p>
+									<p class="personal_top_right_mid"><img src="img/VIP1.png"></p>
+									<p class="personal_top_right_bot"><a>我可享受<span class="rred">16</span>项特权</a></p>
+								</div>
+							</div>
+							<div class="personal_mid">
+								<a>距离<span class="rred">会员日</span>开始还有<span class="rred">14</span>天！</a>
+							</div>
+							<div class="personal_bot">
+								<a href="" id="lar" class="ar"></a>
+								<div class="list">
+									<div class="list_content">
+										<ul>
+											<li>
+												<img src="img/person1.png" alt="" />
+												<p><a href="">会员日</a></p>
+											</li>
+											<li>
+												<img src="img/person2.png" alt="" />
+												<p><a href="">节日特权</a></p>
+											</li>
+											<li>
+												<img src="img/person3.png" alt="" />
+												<p><a href="">周年纪念</a></p>
+											</li>
+											<li>
+												<img src="img/person4.png" alt="" />
+												<p><a href="">生日特权</a></p>
+											</li>
+											<li>
+												<img src="img/person5.png" alt="" />
+												<p><a href="">中信淘宝</a></p>
+											</li>
+											<li>
+												<img src="img/person6.png" alt="" />
+												<p><a href="">阿里小号</a></p>
+											</li>
+											<li>
+												<img src="img/person7.png" alt="" />
+												<p><a href="">WIFI特权</a></p>
+											</li>
+											<li>
+												<img src="img/person8.png" alt="" />
+												<p><a href="">VIP价</a></p>
+											</li>
+											<li>
+												<img src="img/person9.png" alt="" />
+												<p><a href="">活动尊享</a></p>
+											</li>
+											<li>
+												<img src="img/person10.png" alt="" />
+												<p><a href="">音乐特权</a></p>
+											</li>
+											<li>
+												<img src="img/person11.png" alt="" />
+												<p><a href="">极速退款</a></p>
+											</li>
+											<li>
+												<img src="img/person12.png" alt="" />
+												<p><a href="">花呗特权</a></p>
+											</li>
+											<li>
+												<img src="img/person13.png" alt="" />
+												<p><a href="">会员升级</a></p>
+											</li>
+											<li>
+												<img src="img/person14.png" alt="" />
+												<p><a href="">百笔好礼</a></p>
+											</li>
+											<li>
+												<img src="img/person15.png" alt="" />
+												<p><a href="">百天好礼</a></p>
+											</li>
+											<li>
+												<img src="img/person16.png" alt="" />
+												<p><a href="">好评达人</a></p>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+								<a href="" id="rar" class="ar"></a>
+							</div>
+						</div>
+					<li class="arrow white" id="mail"><i><img src="img/mail.png"></i><a href="#">消息</a>
+						<div class="msgbox">
+							<div class="msgbox_top">未读消息</div>
+							<div class="msgbox_mid">
+								<p class="msgbox_mid_top">没有新消息了</p>
+								<img src="img/none.png">
+								<p class="msgbox_mid_bot"><a>查看之前的消息</a></p>
+							</div>
+							<div class="msgbox_bot">
+								<div class="msgbox_bot_left"><a id="msg_set"></a><a id="msg_wri"></a></div>
+								<div class="msgbox_bot_right"><a>查看全部</a></div>
+							</div>
+						</div>
+					</li>
+					<li><a href="#">手机逛淘宝</a></li>
+				</ul>
+			</div>
+			<div class="title_right">
+				<ul>
+					<li class="arrow white" id="mytao"><a href="#">我的淘宝</a>
+						<div class="mytb" id="shopcar">
+							<ul>
+								<li><a href="">已买到的宝贝</a></li>
+								<li><a href="">我的足迹</a></li>
+								<li><a href="">我的上新</a></li>
+								<li><a href="">爱逛街</a></li>
+								<li><a href="">淘宝达人</a></li>
+								<li><a href="">新欢</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="arrow2 white icon"><i><img src="img/shopcar.png"></i><a href="#">购物车</a></li>
+					<li class="arrow white icon" id="myshine"><i><img src="img/shou.png"/></i><a href="#">收藏夹</a>
+						<div class="mytb" id="shine">
+							<ul>
+								<li><a href="">收藏的店铺</a></li>
+								<li><a href="">收藏的宝贝</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">商品分类</a></li>
+					<li class="ver" style="width: 5px;height: 35px;padding-left: 0;">|</li>
+					<li class="arrow white" id="seller"><a href="#" >卖家中心</a>
+						<div class="mytb" id="shop">
+							<ul>
+								<li><a href="">免费开店</a></li>
+								<li><a href="">已卖出的宝贝</a></li>
+								<li><a href="">出售中的宝贝</a></li>
+								<li><a href="">卖家服务市场</a></li>
+								<li><a href="">卖家培训中心</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="arrow white" id="connect"><a href="#">联系客服</a>
+						<div class="mytb" id="server">
+							<ul>
+								<li><a href="">消费者客服</a></li>
+								<li><a href="">卖家客服</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="arrow2 white" id="mynav"><a href="#">网站导航</a>
+						<div class="nav clearfix">
+							<div class="nav_1">
+								<h2>主题市场</h2>
+								<ul>
+									<li><a href="">女装<sup class="H"></sup></a></li>
+									<li><a href="">男装</a></li>
+									<li><a href="">鞋靴</a></li>
+									<li><a href="">箱包</a></li>
+									<li><a href="">婴童</a></li>
+									<li><a href="">美妆</a></li>
+									<li><a href="">食品</a></li>
+									<li><a href="">珠宝</a><sup class="G"></sup></li>
+									<li><a href="">装修</a></li>
+									<li><a href="">建材</a></li>
+									<li><a href="">家居</a></li>
+									<li><a href="">百货</a></li>
+									<li><a href="">汽车</a></li>
+									<li><a href="">数码</a></li>
+									<li><a href="">家电</a></li>
+									<li><a href="">游戏</a></li>
+									<li><a href="">生活</a></li>
+									<li><a href="">学习</a></li>
+									<li><a href="">房产</a><sup class="H"></sup></li>
+									<li><a href="">结婚</a></li>
+									<li><a href="">运动</a></li>
+									<li><a href="">户外</a></li>
+									<li><a href="">娱乐</a></li>
+									<li><a href="">花鸟</a></li>
+								</ul>
+							</div>
+							<div class="nav_2">
+								<h2>特色购物</h2>
+								<ul>
+									<li><a href="">淘宝女人</a></li>
+									<li><a href="">淘宝男人</a></li>
+									<li><a href="">中年</a></li>
+									<li><a href="">闲鱼</a></li>
+									<li><a href="">拍卖会</a></li>
+									<li><a href="">全球购</a></li>
+									<li><a href="">海外直邮</a></li>
+									<li><a href="">淘宝众筹</a></li>
+									<li><a href="">爱逛街</a></li>
+									<li><a href="">中国制造</a></li>
+									<li><a href="">淘女郎</a></li>
+									<li><a href="">企业购</a></li>
+									<li><a href="">天天特价</a></li>
+									<li><a href="">试用</a></li>
+									<li><a href="">清仓</a></li>
+									<li><a href="">全民抢拍</a></li>
+									<li><a href="">淘金币</a></li>
+									<li><a href="">抢新</a></li>
+									<li><a href="">淘特莱斯</a></li>
+									<li><a href="">本地团</a></li>
+									<li><a href="">挑食</a></li>
+								</ul>
+							</div>
+							<div class="nav_3">
+								<h2>当前热点</h2>
+								<ul>
+									<li><a href="">天天中奖</a></li>
+									<li><a href="">新鲜土货</a></li>
+									<li><a href="">美丽裙装</a></li>
+									<li><a href="">美白修复</a><sup class="H"></sup></li>
+									<li><a href="">热卖单鞋</a></li>
+									<li><a href="">智能数码</a></li>
+									<li><a href="">海外精品</a></li>
+									<li><a href="">特价旅行</a></li>
+									<li><a href="">宝贝最爱</a><sup class="G"></sup></li>
+									<li><a href="">宅品精选</a></li>
+									<li><a href="">新房装修</a></li>
+									<li><a href="">宝贝计划</a></li>
+									<li><a href="">大码女装</a></li>
+									<li><a href="">我要泡妞</a></li>
+									<li><a href="">全球美食</a></li>
+									<li><a href="">急聘客服</a></li>
+									<li><a href="">阿里APP</a></li>
+									<li><a href="">洗照片</a></li>
+								</ul>
+							</div>
+							<div class="nav_4">
+								<h2>更多精彩</h2>
+								<ul>
+									<li><a href="">阿里旺旺</a></li>
+									<li><a href="">支付宝</a></li>
+									<li><a href="">来往</a></li>
+									<li><a href="">潮电街</a></li>
+									<li><a href="">买房租房</a></li>
+									<li><a href="">大众评审</a><sup class="H"></sup></li>
+									<li><a href="">天猫进口</a></li>
+									<li><a href="">限时限量</a></li>
+									<li><a href="">余额宝</a></li>
+									<li><a href="">大牌捡宝</a></li>
+									<li><a href="">淘公仔</a></li>
+									<li><a href="">浏览器</a></li>
+									<li><a href="">司法拍卖</a></li>
+									<li><a href="">寄查快递</a></li>
+									<li><a href="">淘宝香港</a></li>
+									<li><a href="">淘宝台湾</a></li>
+									<li><a href="">淘宝全球</a></li>
+									<li><a href="">淘宝东南亚</a></li>
+									<li><a href="">闺蜜淘货</a></li>
+									<li><a href="">B格</a><sup class="G"></sup></li>
+									<li><a href="">淘宝视频</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--title结束-->
+		<div class="search clearfix">
+			<div class="logo"><img src="img/logo.png"></div>
+			<div class="searchbox">
+				<div class="searchbox_top clearfix">
+					<ul>
+						<li id="bao" class="mtao"><a href="">宝贝</a></li>
+						<li id="tml"><a href="">天猫</a></li>
+						<li id="ishop" class="mtao"><a href="">店铺</a></li>
+					</ul>
+				</div>
+				<div class="searchbox_mid clearfix">
+					<input type="text" class="ttb"><input type="button" value="搜索" class="sebtn">	
+				</div>
+				<div class="searchbox_bot clearfix">
+					<ul>
+						<li><a href="">浴巾</a></li>
+						<li><a href="">男士洗面奶</a></li>
+						<li><a href="">logo设计</a></li>
+						<li><a href="">毛巾</a></li>
+						<li><a href="">男士内裤</a></li>
+						<li><a href="">指压板</a></li>
+						<li><a href="">女士内裤</a></li>
+						<li><a href="">新款裤子</a></li>
+						<li><a href="">垃圾袋</a></li>
+						<li><a href="">女童秋装</a></li>
+						<li><a href="">运动鞋</a></li>
+						<li><a href="">祛痘</a></li>
+						<li><a href="">洗面奶</a></li>
+					</ul>
+					<a id="search_more">更多<i></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mid">
+		<div class="mid_nav">
+			<h2 class="mid_nav_h">淘宝特色服务</h2>
+			<div class="mid_nav_market">
+				<h2><i></i>主题市场</h2>
+				<ul>
+					<li class="mid_nav_market_li">
+						<a href="">女装</a>
+						<a href="">男装</a>
+						<a href="">鞋靴</a>
+						<a href="">箱包</a>
+						<span class="cover"></span>
+					</li>
+					<li class="mid_nav_market_li">
+						<a href="">婴童</a>
+						<a href="">美妆</a>
+						<a href="">食品</a>
+						<a href="">珠宝</a>
+						<span class="cover"></span>
+					</li>
+					<li class="mid_nav_market_li">
+						<a href="">装修</a>
+						<a href="">建材</a>
+						<a href="">家居</a>
+						<a href="" id="showmore">百货<i id="ishowmore"></i></a>
+						<span class="cover"></span>
+					</li>
+					<li class="mid_nav_market_li">
+						<a href="">汽车</a>
+						<a href="">数码</a>
+						<a href="">家电</a>
+						<a href="">游戏</a>
+						<span class="cover"></span>
+					</li>
+					<li class="mid_nav_market_li">
+						<a href="">生活</a>
+						<a href="">学习</a>
+						<a href="">房产</a>
+						<a href="">结婚</a>
+						<span class="cover"></span>
+					</li>
+					<li class="mid_nav_market_li">
+						<a href="">运动</a>
+						<a href="">户外</a>
+						<a href="">娱乐</a>
+						<a href="">花鸟</a>
+						<span class="cover"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="mid_nav_sec clearfix">
+				<div class="mid_nav_sec_special clearfix">
+					<h2><i></i>特色购物</h2>
+					<ul>
+						<li><a href="">淘宝女人</a></li>
+						<li><a href="">淘宝男人</a></li>
+						<li><a href="">中老年</a></li>
+						<li><a href="">闲鱼</a></li>
+						<li><a href="">拍卖会<sup class="H"></sup></a></li>
+						<li><a href="">全球购</a></li>
+						<li><a href="">海外直邮</a></li>
+						<li><a href="">淘宝众筹</a></li>
+						<li><a href="">爱逛街</a></li>
+						<li><a href="">中国制造</a></li>
+						<li><a href="">淘女郎</a></li>
+						<li><a href="">企业购</a></li>
+					</ul>
+				</div>
+				<div class="mid_nav_sec_discount clearfix">
+					<h2><i></i>优惠促销</h2>
+					<ul>
+						<li><a href="">天天特价</a></li>
+						<li><a href="">试用</a></li>
+						<li><a href="">清仓</a></li>
+						<li><a href="">全民抢拍</a></li>
+						<li><a href="">淘金币</a></li>
+						<li><a href="">抢新</a></li>
+						<li><a href="">陶特莱斯</a></li>
+						<li><a href="">本地团</a></li>
+						<li><a href="">挑食</a></li>
+					</ul>
+				</div>
+				<div class="mid_nav_sec_last">
+					<ul>
+						<li><a href="">阿里旺旺</a></li>
+						<li><a href="">支付宝</a></li>
+						<li><a href="">来往</a></li>
+					</ul>
+					</div>
+				</div>
+			<div class="mid_content"></div>
+		</div><!--midnav结束-->
+		<div class="mid_nav_more_box">
+			<div class="mid_nav_more">
+				<div class="mid_nav_more_left clearfix">
+					<div class="mid_nav_more_left_modal">
+						<ul>
+						<h5><i id="nav1"></i><a class="title_left_a">女装</a><a class="title_right_a">更多&gt&gt</a></h5>
+						<li><a href="">秋新品</a></li>
+						<li><a href="">韩版</a></li>
+						<li><a href="">连衣裙</a></li>
+						<li><a href="">T恤</a></li>
+						<li><a href="">裤子</a></li>
+						<li><a href="">套装</a></li>
+						<li><a href="">半身裙</a></li>
+						<li><a href="">限量抢新</a></li>
+						<li><a href="">毛针织衫</a></li>
+						<li><a href="">薄开衫</a></li>
+						<li><a href="">风衣</a></li>
+						<li><a href="">卫衣</a></li>
+						<li><a href="">呢外套</a></li>
+						<li><a href="">牛仔裤</a></li>
+						<li><a href="">妈妈装</a></li>
+						<li><a href="">大码</a></li>
+						<li><a href="">薄羽绒</a></li>
+						<li><a href="">短外套</a></li>
+						<li><a href="">衬衫</a></li>
+						<li><a href="">90后</a></li>
+					</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<ul>
+						<h5><i id="nav2"></i><a class="title_left_a">男装</a><a class="title_right_a">更多&gt&gt</a></h5>
+						<li><a href="">秋上新</a></li>
+						<li><a href="">潮牌</a></li>
+						<li><a href="">设计款</a></li>
+						<li><a href="">品牌清仓</a></li>
+						<li><a href="">拾货</a></li>
+						<li><a href="">T恤</a></li>
+						<li><a href="">短袖T</a></li>
+						<li><a href="">长袖T</a></li>
+						<li><a href="">POLO</a></li>
+						<li><a href="">卫衣</a></li>
+						<li><a href="">夹克</a></li>
+						<li><a href="">衬衫</a></li>
+						<li><a href="">休闲套装</a></li>
+						<li><a href="">长裤</a></li>
+						<li><a href="">九分裤</a></li>
+						<li><a href="">风衣</a></li>
+						<li><a href="">秋外套</a></li>
+						<li><a href="">裤子</a></li>
+						<li><a href="">休闲裤</a></li>
+						<li><a href="">牛仔裤</a></li>
+						<li><a href="">亚麻裤</a></li>
+					</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<ul>
+						<h5><i id="nav3"></i><a class="title_left_a">男鞋女鞋</a><a class="title_right_a">更多&gt&gt</a></h5>
+						<li><a href="">女鞋</a></li>
+						<li><a href="">豆豆鞋</a></li>
+						<li><a href="">单鞋</a></li>
+						<li><a href="">平底</a></li>
+						<li><a href="">抢新</a></li>
+						<li><a href="">坡跟</a></li>
+						<li><a href="">中跟</a></li>
+						<li><a href="">鱼嘴</a></li>
+						<li><a href="">帆布鞋</a></li>
+						<li><a href="">真皮</a></li>
+						<li><a href="">妈妈鞋</a></li>
+						<li><a href="">男鞋</a></li>
+						<li><a href="">休闲</a></li>
+						<li><a href="">帆布</a></li>
+						<li><a href="">潮流</a></li>
+						<li><a href="">皮鞋</a></li>
+						<li><a href="">商务</a></li>
+						<li><a href="">豆豆鞋</a></li>
+						<li><a href="">品牌折扣</a></li>
+						<li><a href="">增高</a></li>
+						<li><a href="">休闲运动</a></li>
+					</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<ul>
+						<h5><i id="nav4"></i><a class="title_left_a">箱包</a><a class="title_right_a">更多&gt&gt</a></h5>
+						<li><a href="">女包</a></li>
+						<li><a href="">秋上新</a></li>
+						<li><a href="">单肩包</a></li>
+						<li><a href="">斜挎包</a></li>
+						<li><a href="">手提包</a></li>
+						<li><a href="">双肩包</a></li>
+						<li><a href="">钱包</a></li>
+						<li><a href="">拉杆箱</a></li>
+						<li><a href="">明星款</a></li>
+						<li><a href="">潮包</a></li>
+						<li><a href="">男包</a></li>
+						<li><a href="">商务包</a></li>
+						<li><a href="">休闲包</a></li>
+						<li><a href="">手拿包</a></li>
+						<li><a href="">帆布包</a></li>
+						<li><a href="">真皮</a></li>
+						<li><a href="">大牌</a></li>
+						<li><a href="">COACH</a></li>
+						<li><a href="">MK</a></li>
+						<li><a href="">MCM</a></li>
+						<li><a href="">Prada</a></li>
+					</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<ul>
+						<h5><i id="nav5"></i><a class="title_left_a">内衣</a><a class="title_right_a">更多&gt&gt</a></h5>
+						<li><a href="">抢新品</a></li>
+						<li><a href="">薄款</a></li>
+						<li><a href="">性感</a></li>
+						<li><a href="">透视</a></li>
+						<li><a href="">抹胸</a></li>
+						<li><a href="">文胸</a></li>
+						<li><a href="">比基尼</a></li>
+						<li><a href="">少女内衣</a></li>
+						<li><a href="">睡衣</a></li>
+						<li><a href="">套装</a></li>
+						<li><a href="">睡裙</a></li>
+						<li><a href="">连体睡衣</a></li>
+						<li><a href="">情侣睡衣</a></li>
+						<li><a href="">女内裤</a></li>
+						<li><a href="">男内裤</a></li>
+						<li><a href="">丁字裤</a></li>
+						<li><a href="">无痕内裤</a></li>
+						<li><a href="">丝袜</a></li>
+						<li><a href="">棉袜</a></li>
+						<li><a href="">收腹裤</a></li>
+					</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<ul>
+						<h5><i id="nav6"></i><a class="title_left_a">配件</a><a class="title_right_a">更多&gt&gt</a></h5>
+						<li><a href="">帽子</a></li>
+						<li><a href="">遮阳帽</a></li>
+						<li><a href="">草帽</a></li>
+						<li><a href="">棒球帽</a></li>
+						<li><a href="">鸭舌帽</a></li>
+						<li><a href="">围巾</a></li>
+						<li><a href="">真丝</a></li>
+						<li><a href="">雪纺</a></li>
+						<li><a href="">棉麻</a></li>
+						<li><a href="">披肩</a></li>
+						<li><a href="">假领</a></li>
+						<li><a href="">皮带</a></li>
+						<li><a href="">腰封</a></li>
+						<li><a href="">腰链</a></li>
+						<li><a href="">头层牛皮</a></li>
+						<li><a href="">帆布腰带</a></li>
+						<li><a href="">新品</a></li>
+						<li><a href="">防晒手套</a></li>
+						<li><a href="">毛线</a></li>
+						<li><a href="">正品折扣</a></li>
+						<li><a href="">鞋垫</a></li>
+					</ul>
+					</div>
+				</div>
+				<div class="mid_nav_more_right">
+					<div class="adshell1">
+						<div class="smallad1">
+							<img src="img/method1.png" alt="" />
+							<p><a href="">[质+]百搭小白鞋</a></p>
+						</div>
+						<div class="smallad1">
+							<img src="img/method2.png" alt="" />
+							<p><a href="">开抢前，快加购</a></p>
+						</div>
+						<div class="smallad1">
+							<img src="img/method3.png" alt="" />
+							<p><a href="">抢内衣秋冬新品</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="mid_nav_more">
+				<div class="mid_nav_more_left">
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav7"></i>
+							<a href="" class="title_left_a">婴童</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+							<ul>
+								<li><a href="">防晒</a></li>
+								<li><a href="">T恤</a></li>
+								<li><a href="">裙子</a></li>
+								<li><a href="">泳装</a></li>
+								<li><a href="">套装</a></li>
+								<li><a href="">亲子</a></li>
+								<li><a href="">婴儿床</a></li>
+								<li><a href="">清凉伞车</a></li>
+								<li><a href="">隔尿垫</a></li>
+								<li><a href="">奶瓶</a></li>
+								<li><a href="">水杯</a></li>
+								<li><a href="">益生菌</a></li>
+								<li><a href="">爱他美</a></li>
+								<li><a href="">君宝乐</a></li>
+								<li><a href="">羊奶粉</a></li>
+								<li><a href="">牛栏</a></li>
+								<li><a href="">电动童车</a></li>
+								<li><a href="">遥控模型</a></li>
+								<li><a href="">戏水</a></li>
+								<li><a href="">乐高</a></li>
+								<li><a href="">早教</a></li>
+								<li><a href="">连衣裙</a></li>
+								<li><a href="">外出哺乳装</a></li>
+								<li><a href="">月子服</a></li>
+								<li><a href="">哺乳衣</a></li>
+								<li><a href="">凉鞋</a></li>
+								<li><a href="">沙滩鞋</a></li>
+								<li><a href="">洞洞鞋</a></li>
+								<li><a href="">网鞋</a></li>
+								<li><a href="">学步鞋</a></li>
+							</ul>
+						</h5>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav8"></i>
+							<a href="" class="title_left_a">美妆</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+							<ul>
+								<li><a href="">面膜</a></li>
+								<li><a href="">洁面</a></li>
+								<li><a href="">防晒</a></li>
+								<li><a href="">BB霜</a></li>
+								<li><a href="">控油</a></li>
+								<li><a href="">面霜</a></li>
+								<li><a href="">卸妆</a></li>
+								<li><a href="">爽肤水</a></li>
+								<li><a href="">眼霜</a></li>
+								<li><a href="">乳液</a></li>
+								<li><a href="">香水</a></li>
+								<li><a href="">眼线</a></li>
+								<li><a href="">彩妆盘</a></li>
+								<li><a href="">身体护理</a></li>
+								<li><a href="">粉底液</a></li>
+								<li><a href="">唇膏</a></li>
+								<li><a href="">隔离</a></li>
+								<li><a href="">美胸</a></li>
+								<li><a href="">纤体</a></li>
+								<li><a href="">塑身</a></li>
+								<li><a href="">假发</a></li>
+								<li><a href="">脱毛</a></li>
+								<li><a href="">V脸</a></li>
+								<li><a href="">染发</a></li>
+								<li><a href="">洗发水</a></li>
+								<li><a href="">护发素</a></li>
+								<li><a href="">补水</a></li>
+								<li><a href="">祛痘</a></li>
+								<li><a href="">美白</a></li>
+								<li><a href="">祛斑</a></li>
+								<li><a href="">保湿</a></li>
+								<li><a href="">海外直邮</a></li>
+							</ul>
+						</h5>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav9"></i>
+							<a href="" class="title_left_a">食品</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+							<ul>
+								<li><a href="">肉松饼</a></li>
+								<li><a href="">巧克力</a></li>
+								<li><a href="">麦片</a></li>
+								<li><a href="">车厘子</a></li>
+								<li><a href="">酸梅汤</a></li>
+								<li><a href="">鸡尾酒</a></li>
+								<li><a href="">蜂蜜</a></li>
+								<li><a href="">咖啡</a></li>
+								<li><a href="">红酒</a></li>
+								<li><a href="">橄榄油</a></li>
+								<li><a href="">小龙虾</a></li>
+								<li><a href="">薯片</a></li>
+								<li><a href="">火腿</a></li>
+								<li><a href="">红枣</a></li>
+								<li><a href="">话梅</a></li>
+								<li><a href="">松子</a></li>
+								<li><a href="">牛油果</a></li>
+								<li><a href="">桂圆</a></li>
+								<li><a href="">大米</a></li>
+								<li><a href="">铁观音</a></li>
+								<li><a href="">三文鱼</a></li>
+								<li><a href="">海参</a></li>
+								<li><a href="">花草茶</a></li>
+								<li><a href="">饼干</a></li>
+								<li><a href="">花胶</a></li>
+								<li><a href="">天麻</a></li>
+								<li><a href="">绿豆</a></li>
+								<li><a href="">芒果干</a></li>
+								<li><a href="">普洱</a></li>
+								<li><a href="">人参</a></li>
+								<li><a href="">藕粉</a></li>
+								<li><a href="">糖果</a></li>
+								<li><a href="">牛奶</a></li>
+							</ul>
+						</h5>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav10"></i>
+							<a href="" class="title_left_a">珠宝</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+							<ul>
+								<li><a href="">品牌手表</a></li>
+								<li><a href="">瑞士表</a></li>
+								<li><a href="">机械表</a></li>
+								<li><a href="">时装表</a></li>
+								<li><a href="">儿童表</a></li>
+								<li><a href="">配件</a></li>
+								<li><a href="">眼镜</a></li>
+								<li><a href="">太阳镜</a></li>
+								<li><a href="">偏光镜</a></li>
+								<li><a href="">近视镜</a></li>
+								<li><a href="">电子烟</a></li>
+								<li><a href="">打火机</a></li>
+								<li><a href="">酒具</a></li>
+								<li><a href="">时尚饰品</a></li>
+								<li><a href="">项链</a></li>
+								<li><a href="">手链</a></li>
+								<li><a href="">戒指</a></li>
+								<li><a href="">发饰</a></li>
+								<li><a href="">银饰</a></li>
+								<li><a href="">水晶</a></li>
+								<li><a href="">珠宝首饰</a></li>
+								<li><a href="">翡翠</a></li>
+								<li><a href="">彩宝</a></li>
+								<li><a href="">蜜蜡</a></li>
+								<li><a href="">裸钻</a></li>
+								<li><a href="">珍珠</a></li>
+								<li><a href="">黄金</a></li>
+							</ul>
+						</h5>
+					</div>
+				</div>
+				<div class="mid_nav_more_right clearfix">
+					<div class="adshell">
+						<div class="smallad">
+							<img src="img/method4.png" alt="" />
+							<p><a href="">开学季一元购</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method5.png" alt="" />
+							<p><a href="">明星最爱珠宝</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method6.png" alt="" />
+							<p><a href="">健康家宝全系列</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="mid_nav_more">
+				<div class="mid_nav_more_left">
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav11"></i>
+							<a href="" class="title_left_a">装修</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">买手挑</a></li>
+							<li><a href="">大厂直供</a></li>
+							<li><a href="">大牌直营</a></li>
+							<li><a href="">极致设计</a></li>
+							<li><a href="">原木专辑</a></li>
+							<li><a href="">萌萌哒</a></li>
+							<li><a href="">美好桌布</a></li>
+							<li><a href="">储物架</a></li>
+							<li><a href="">色彩家居</a></li>
+							<li><a href="">复古工业风</a></li>
+							<li><a href="">潮玩意</a></li>
+							<li><a href="">新中式</a></li>
+							<li><a href="">沙发椅</a></li>
+							<li><a href="">颜控碗</a></li>
+							<li><a href="">创意灯饰</a></li>
+							<li><a href="">美式家居</a></li>
+							<li><a href="">日式餐具</a></li>
+							<li><a href="">儿童房</a></li>
+							<li><a href="">装饰好物</a></li>
+							<li><a href="">多彩抱枕</a></li>
+							<li><a href="">万能收纳</a></li>
+							<li><a href="">美翻了窗帘</a></li>
+							<li><a href="">简约风家具</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav12"></i>
+							<a href="" class="title_left_a">建材</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">马桶</a></li>
+							<li><a href="">浴室柜</a></li>
+							<li><a href="">花洒</a></li>
+							<li><a href="">瓷砖</a></li>
+							<li><a href="">地板</a></li>
+							<li><a href="">墙纸</a></li>
+							<li><a href="">开关</a></li>
+							<li><a href="">插座</a></li>
+							<li><a href="">吸顶灯</a></li>
+							<li><a href="">吊灯</a></li>
+							<li><a href="">筒射灯</a></li>
+							<li><a href="">台灯</a></li>
+							<li><a href="">落地灯</a></li>
+							<li><a href="">小夜灯</a></li>
+							<li><a href="">整体衣柜</a></li>
+							<li><a href="">定制柜类</a></li>
+							<li><a href="">散热器</a></li>
+							<li><a href="">门</a></li>
+							<li><a href="">榻榻米</a></li>
+							<li><a href="">地漏</a></li>
+							<li><a href="">面盆</a></li>
+							<li><a href="">浴霸</a></li>
+							<li><a href="">五金挂件</a></li>
+							<li><a href="">龙头</a></li>
+							<li><a href="">光源</a></li>
+							<li><a href="">开关</a></li>
+							<li><a href="">壁灯</a></li>
+							<li><a href="">半包装修</a></li>
+							<li><a href="">全包装修</a></li>
+						</ul>
+					</div>
+					
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav13"></i>
+							<a href="" class="title_left_a">家居</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">沙发</a></li>
+							<li><a href="">床类</a></li>
+							<li><a href="">电视柜</a></li>
+							<li><a href="">茶几</a></li>
+							<li><a href="">餐桌椅</a></li>
+							<li><a href="">鞋柜</a></li>
+							<li><a href="">儿童家具</a></li>
+							<li><a href="">衣柜</a></li>
+							<li><a href="">电脑桌椅</a></li>
+							<li><a href="">床垫</a></li>
+							<li><a href="">书柜</a></li>
+							<li><a href="">户外</a></li>
+							<li><a href="">乳软胶</a></li>
+							<li><a href="">四件套</a></li>
+							<li><a href="">蚕丝被</a></li>
+							<li><a href="">羽绒被</a></li>
+							<li><a href="">床褥</a></li>
+							<li><a href="">窗帘</a></li>
+							<li><a href="">地毯</a></li>
+							<li><a href="">沙发垫</a></li>
+							<li><a href="">飘窗垫</a></li>
+							<li><a href="">靠垫</a></li>
+							<li><a href="">桌布桌旗</a></li>
+							<li><a href="">摆件</a></li>
+							<li><a href="">花旗</a></li>
+							<li><a href="">家饰</a></li>
+							<li><a href="">挂钟</a></li>
+							<li><a href="">装饰画</a></li>
+							<li><a href="">照片墙</a></li>
+							<li><a href="">壁饰</a></li>
+							
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav14"></i>
+							<a href="" class="title_left_a">百货</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">遮阳伞</a></li>
+							<li><a href="">防晒神器</a></li>
+							<li><a href="">澡巾</a></li>
+							<li><a href="">睡眠眼罩</a></li>
+							<li><a href="">拖鞋</a></li>
+							<li><a href="">降暑</a></li>
+							<li><a href="">扇子</a></li>
+							<li><a href="">收纳箱</a></li>
+							<li><a href="">内衣收纳</a></li>
+							<li><a href="">随身包</a></li>
+							<li><a href="">晾衣杆</a></li>
+							<li><a href="">桌面收纳</a></li>
+							<li><a href="">梳妆</a></li>
+							<li><a href="">浴室收纳</a></li>
+							<li><a href="">省力拖把</a></li>
+							<li><a href="">用完即扔</a></li>
+							<li><a href="">家务清洁</a></li>
+							<li><a href="">不粘锅</a></li>
+							<li><a href="">砧板</a></li>
+							<li><a href="">餐瓷套装</a></li>
+							<li><a href="">饮具</a></li>
+							<li><a href="">心机小物</a></li>
+							<li><a href="">厨房置物架</a></li>
+							<li><a href="">饭盒</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mid_nav_more_right">
+					<div class="adshell">
+						<div class="smallad">
+							<img src="img/method11.png" alt="" />
+							<p><a href="">家装设计秒低价</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method12.png" alt="" />
+							<p><a href="">不好看不吃饭</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method13.png" alt="" />
+							<p><a href="">这就是设计</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="mid_nav_more">
+				<div class="mid_nav_more_left">
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav15"></i>
+							<a href="" class="title_left_a">数码</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">红米NOTE2</a></li>
+							<li><a href="">iPone</a></li>
+							<li><a href="">小米</a></li>
+							<li><a href="">华为</a></li>
+							<li><a href="">三星</a></li>
+							<li><a href="">IPAD</a></li>
+							<li><a href="">win8平板</a></li>
+							<li><a href="">超极本</a></li>
+							<li><a href="">笔记本</a></li>
+							<li><a href="">单反</a></li>
+							<li><a href="">镜头</a></li>
+							<li><a href="">卡片机</a></li>
+							<li><a href="">摄像机</a></li>
+							<li><a href="">lomo</a></li>
+							<li><a href="">拍立得</a></li>
+							<li><a href="">自拍神器</a></li>
+							<li><a href="">一体机</a></li>
+							<li><a href="">游戏本</a></li>
+							<li><a href="">DIY电脑</a></li>
+							<li><a href="">自拍</a></li>
+							<li><a href="">路由器</a></li>
+							<li><a href="">电脑配件</a></li>
+							<li><a href="">保护壳套</a></li>
+							<li><a href="">移动电源</a></li>
+							<li><a href="">炫彩贴膜</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav16"></i>
+							<a href="" class="title_left_a">家电</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">空气净化</a></li>
+							<li><a href="">挂烫机</a></li>
+							<li><a href="">净水器</a></li>
+							<li><a href="">吸尘器</a></li>
+							<li><a href="">扫地机器人</a></li>
+							<li><a href="">烤箱</a></li>
+							<li><a href="">豆浆机</a></li>
+							<li><a href="">榨汁机</a></li>
+							<li><a href="">电饭煲</a></li>
+							<li><a href="">制氧机</a></li>
+							<li><a href="">剃须刀</a></li>
+							<li><a href="">蒸脸器</a></li>
+							<li><a href="">电吹风</a></li>
+							<li><a href="">按摩椅</a></li>
+							<li><a href="">网络机顶盒</a></li>
+							<li><a href="">耳机</a></li>
+							<li><a href="">麦克风</a></li>
+							<li><a href="">音响</a></li>
+							<li><a href="">扩音器</a></li>
+							<li><a href="">空调</a></li>
+							<li><a href="">油烟机</a></li>
+							<li><a href="">平板电视</a></li>
+							<li><a href="">洗衣机</a></li>
+							<li><a href="">冰箱</a></li>
+							<li><a href="">厨房大电</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav17"></i>
+							<a href="" class="title_left_a">汽车</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">没钱也能买车</a></li>
+							<li><a href="">车秒货</a></li>
+							<li><a href="">4S保养特惠</a></li>
+							<li><a href="">二手车估价</a></li>
+							<li><a href="">脚垫</a></li>
+							<li><a href="">香水</a></li>
+							<li><a href="">挂件</a></li>
+							<li><a href="">车震床</a></li>
+							<li><a href="">车载氧吧</a></li>
+							<li><a href="">记录仪</a></li>
+							<li><a href="">车机</a></li>
+							<li><a href="">预警仪</a></li>
+							<li><a href="">GPS</a></li>
+							<li><a href="">大灯总成</a></li>
+							<li><a href="">雨刮</a></li>
+							<li><a href="">机油</a></li>
+							<li><a href="">氙气灯</a></li>
+							<li><a href="">尾翼</a></li>
+							<li><a href="">轮胎</a></li>
+							<li><a href="">轮胎</a></li>
+							<li><a href="">智能后视镜</a></li>
+							<li><a href="">车载音响</a></li>
+							<li><a href="">防眩蓝镜</a></li>
+							<li><a href="">隔热膜</a></li>
+							<li><a href="">遮阳挡</a></li>
+							<li><a href="">洗车机</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav18"></i>
+							<a href="" class="title_left_a">游戏</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">DNF</a></li>
+							<li><a href="">梦幻西游</a></li>
+							<li><a href="">魔兽</a></li>
+							<li><a href="">LOL</a></li>
+							<li><a href="">坦克世界</a></li>
+							<li><a href="">剑网3</a></li>
+							<li><a href="">魔域</a></li>
+							<li><a href="">DOTA2</a></li>
+							<li><a href="">街头篮球</a></li>
+							<li><a href="">CF</a></li>
+							<li><a href="">天龙八部</a></li>
+							<li><a href="">大话西游2</a></li>
+							<li><a href="">三国争霸</a></li>
+							<li><a href="">YY</a></li>
+							<li><a href="">劲舞团</a></li>
+							<li><a href="">倩女幽魂</a></li>
+							<li><a href="">天下3</a></li>
+							<li><a href="">反恐精英</a></li>
+							<li><a href="">冒险岛</a></li>
+							<li><a href="">问道</a></li>
+							<li><a href="">逆战</a></li>
+							<li><a href="">大唐无双</a></li>
+							<li><a href="">征途2</a></li>
+							<li><a href="">九阴真经</a></li>
+							<li><a href="">龙之谷</a></li>
+							<li><a href="">热血江湖</a></li>
+							<li><a href="">剑灵</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mid_nav_more_right">
+					<div class="adshell">
+						<div class="smallad">
+							<img src="img/method10.png" alt="" />
+							<p><a href="">嗨，智能新玩伴</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method11.png" alt="" />
+							<p><a href="">一站采购最便捷</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method12.png" alt="" />
+							<p><a href=""></a>暴雪游戏特卖</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="mid_nav_more">
+				<div class="mid_nav_more_left">
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav19"></i>
+							<a href="" class="title_left_a">生活</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">家庭保洁</a></li>
+							<li><a href="">在线洗衣</a></li>
+							<li><a href="">上门养车</a></li>
+							<li><a href="">洗车</a></li>
+							<li><a href="">网上办事</a></li>
+							<li><a href="">医院挂号</a></li>
+							<li><a href="">私人厨师</a></li>
+							<li><a href="">月嫂</a></li>
+							<li><a href="">名企招聘</a></li>
+							<li><a href="">兼职专区</a></li>
+							<li><a href="">上门按摩</a></li>
+							<li><a href="">催乳师</a></li>
+							<li><a href="">入职体验</a></li>
+							<li><a href="">法律咨询</a></li>
+							<li><a href="">数码维修</a></li>
+							<li><a href="">代跑腿</a></li>
+							<li><a href="">开荒保洁</a></li>
+							<li><a href="">居家搬家</a></li>
+							<li><a href="">便民服务</a></li>
+							<li><a href="">交罚单</a></li>
+							<li><a href="">宽带缴费</a></li>
+							<li><a href="">上门美甲</a></li>
+							<li><a href="">充加油卡</a></li>
+							<li><a href="">水电煤</a></li>
+							
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav20"></i>
+							<a href="" class="title_left_a">学习</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">公开课</a></li>
+							<li><a href="">实用英语</a></li>
+							<li><a href="">英语入门</a></li>
+							<li><a href="">一对一</a></li>
+							<li><a href="">网站制作</a></li>
+							<li><a href="">电子商务</a></li>
+							<li><a href="">IT技能</a></li>
+							<li><a href="">PS技巧</a></li>
+							<li><a href="">金融财务</a></li>
+							<li><a href="">会计从业</a></li>
+							<li><a href="">会计职称</a></li>
+							<li><a href="">公务员</a></li>
+							<li><a href="">个人形象</a></li>
+							<li><a href="">减肥瑜伽</a></li>
+							<li><a href="">手工DIY</a></li>
+							<li><a href="">舞蹈</a></li>
+							<li><a href="">时尚美妆</a></li>
+							<li><a href="">魅力健身</a></li>
+							<li><a href="">儿童培养</a></li>
+							<li><a href="">音乐</a></li>
+							<li><a href="">少儿英语</a></li>
+							<li><a href="">小学课程</a></li>
+							<li><a href="">办公技能</a></li>
+							<li><a href="">美术</a></li>
+							
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav21"></i>
+							<a href="" class="title_left_a">房产</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">单身公寓</a></li>
+							<li><a href="">舒适两房</a></li>
+							<li><a href="">阔绰四房</a></li>
+							<li><a href="">小三房</a></li>
+							<li><a href="">土豪豪宅</a></li>
+							<li><a href="">伶包入住</a></li>
+							<li><a href="">旺铺免租</a></li>
+							<li><a href="">精装修</a></li>
+							<li><a href="">8元抢好房</a></li>
+							<li><a href="">花园洋房</a></li>
+							<li><a href="">即将开盘</a></li>
+							<li><a href="">学区</a></li>
+							<li><a href="">1元租好房</a></li>
+							<li><a href="">二手好房</a></li>
+							<li><a href="">海景房</a></li>
+							<li><a href="">住北京</a></li>
+							<li><a href="">租房精选</a></li>
+							<li><a href="">住在天津</a></li>
+							<li><a href="">住在上海</a></li>
+							<li><a href="">住南京</a></li>
+							<li><a href="">1折抢美国房</a></li>
+							<li><a href="">住杭州</a></li>
+							<li><a href="">住广州</a></li>
+							<li><a href="">低总价</a></li>
+							
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav22"></i>
+							<a href="" class="title_left_a">结婚</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">婚宴预订</a></li>
+							<li><a href="">三亚婚拍</a></li>
+							<li><a href="">厦门婚拍</a></li>
+							<li><a href="">巴厘岛</a></li>
+							<li><a href="">青岛婚拍</a></li>
+							<li><a href="">丽江婚拍</a></li>
+							<li><a href="">婚礼司仪</a></li>
+							<li><a href="">化妆师</a></li>
+							<li><a href="">婚纱摄影</a></li>
+							<li><a href="">韩国婚拍</a></li>
+							<li><a href="">西藏婚拍</a></li>
+							<li><a href="">婚庆</a></li>
+							<li><a href="">毛里求斯</a></li>
+							<li><a href="">马尔代夫</a></li>
+							<li><a href="">婚纱礼服</a></li>
+							<li><a href="">婚车</a></li>
+							<li><a href="">婚礼策划</a></li>
+							<li><a href="">新娘跟妆</a></li>
+							<li><a href="">婚庆服务</a></li>
+							<li><a href="">特价</a></li>
+							<li><a href="">珠宝钻戒</a></li>
+							<li><a href="">婚礼布置</a></li>
+							<li><a href="">婚庆床品</a></li>
+							<li><a href="">租礼服</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="mid_nav_more_right">
+					<div class="adshell">
+						<div class="smallad">
+							<img src="img/method13.png" alt="" />
+							<p><a href="">婚礼订场地不用等</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method14.png" alt="" />
+							<p><a href="">公开课知识的力量</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method15.png" alt="" />
+							<p><a href="">8元买房 1元租房</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="mid_nav_more">
+				<div class="mid_nav_more_left">
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav23"></i>
+							<a href="" class="title_left_a">运动</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">中国制造</a></li>
+							<li><a href="">耐克</a></li>
+							<li><a href="">AJ</a></li>
+							<li><a href="">阿迪达斯</a></li>
+							<li><a href="">新百伦</a></li>
+							<li><a href="">安德玛</a></li>
+							<li><a href="">彪马</a></li>
+							<li><a href="">李宁</a></li>
+							<li><a href="">亚瑟士</a></li>
+							<li><a href="">锐步</a></li>
+							<li><a href="">VANS</a></li>
+							<li><a href="">安踏</a></li>
+							<li><a href="">特步</a></li>
+							<li><a href="">匡威</a></li>
+							<li><a href="">玩觅</a></li>
+							<li><a href="">361度</a></li>
+							<li><a href="">跑步鞋</a></li>
+							<li><a href="">休闲鞋</a></li>
+							<li><a href="">足球鞋</a></li>
+							<li><a href="">羽毛球鞋</a></li>
+							<li><a href="">帆布鞋</a></li>
+							<li><a href="">凉鞋</a></li>
+							<li><a href="">篮球鞋</a></li>
+							<li><a href="">T恤</a></li>
+							<li><a href="">健身服</a></li>
+							<li><a href="">七分裤</a></li>
+							<li><a href="">短裤</a></li>
+							<li><a href="">套装</a></li>
+							<li><a href="">双肩包</a></li>
+							<li><a href="">腰包</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav24"></i>
+							<a href="" class="title_left_a">户外</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">踏步机</a></li>
+							<li><a href="">烧烤炉</a></li>
+							<li><a href="">甩脂机</a></li>
+							<li><a href="">降温冰巾</a></li>
+							<li><a href="">跑步机</a></li>
+							<li><a href="">舞蹈</a></li>
+							<li><a href="">瑜伽</a></li>
+							<li><a href="">羽毛球拍</a></li>
+							<li><a href="">哑铃</a></li>
+							<li><a href="">钓竿</a></li>
+							<li><a href="">山地车</a></li>
+							<li><a href="">公路车</a></li>
+							<li><a href="">骑行服</a></li>
+							<li><a href="">头盔</a></li>
+							<li><a href="">护具</a></li>
+							<li><a href="">篮球</a></li>
+							<li><a href="">足球服</a></li>
+							<li><a href="">乒乓球拍</a></li>
+							<li><a href="">帐篷</a></li>
+							<li><a href="">防晒衣</a></li>
+							<li><a href="">登山鞋</a></li>
+							<li><a href="">望远镜</a></li>
+							<li><a href="">手电筒</a></li>
+							<li><a href="">电动车</a></li>
+							<li><a href="">滑板车</a></li>
+							<li><a href="">平衡车</a></li>
+							<li><a href="">电动鞋</a></li>
+							<li><a href="">头盔</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav25"></i>
+							<a href="" class="title_left_a">娱乐</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">小黄人</a></li>
+							<li><a href="">动漫卫衣</a></li>
+							<li><a href="">盒蛋</a></li>
+							<li><a href="">海贼</a></li>
+							<li><a href="">动漫抱枕</a></li>
+							<li><a href="">火影</a></li>
+							<li><a href="">颜文字</a></li>
+							<li><a href="">变形金刚</a></li>
+							<li><a href="">哆啦A梦</a></li>
+							<li><a href="">手办</a></li>
+							<li><a href="">COS</a></li>
+							<li><a href="">钢铁侠</a></li>
+							<li><a href="">盗墓笔记</a></li>
+							<li><a href="">大白</a></li>
+							<li><a href="">LOL</a></li>
+							<li><a href="">钢琴</a></li>
+							<li><a href="">吉他</a></li>
+							<li><a href="">电钢琴</a></li>
+							<li><a href="">古筝</a></li>
+							<li><a href="">电子琴</a></li>
+							<li><a href="">萨克斯</a></li>
+							<li><a href="">古琴</a></li>
+							<li><a href="">二胡</a></li>
+							<li><a href="">小提琴</a></li>
+							<li><a href="">音箱</a></li>
+							<li><a href="">笛子</a></li>
+							<li><a href="">尤克里里</a></li>
+							<li><a href="">电子琴</a></li>
+							<li><a href="">架子鼓</a></li>
+						</ul>
+					</div>
+					<div class="mid_nav_more_left_modal">
+						<h5>
+							<i id="nav26"></i>
+							<a href="" class="title_left_a">花鸟</a>
+							<a href="" class="title_right_a">更多&gt&gt</a>
+						</h5>
+						<ul>
+							<li><a href="">仿真花</a></li>
+							<li><a href="">插花培训</a></li>
+							<li><a href="">开学小盆栽</a></li>
+							<li><a href="">家庭鲜花</a></li>
+							<li><a href="">永生花</a></li>
+							<li><a href="">卡通花</a></li>
+							<li><a href="">绿植同城</a></li>
+							<li><a href="">多肉</a></li>
+							<li><a href="">肥料</a></li>
+							<li><a href="">花盆</a></li>
+							<li><a href="">盆栽</a></li>
+							<li><a href="">蔬菜种子</a></li>
+							<li><a href="">营养土</a></li>
+							<li><a href="">水培</a></li>
+							<li><a href="">水族小宠</a></li>
+							<li><a href="">观赏鱼</a></li>
+							<li><a href="">鱼缸</a></li>
+							<li><a href="">水草</a></li>
+							<li><a href="">乌龟</a></li>
+							<li><a href="">宠物上门</a></li>
+							<li><a href="">猫砂包邮</a></li>
+							<li><a href="">新款狗装</a></li>
+							<li><a href="">进口狗粮</a></li>
+							<li><a href="">泰迪狗粮</a></li>
+							<li><a href="">电推剪</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="mid_nav_more_right">
+					<div class="adshell">
+						<div class="smallad">
+							<img src="img/method16.png" alt="" />
+							<p><a href="">七夕露营 星空作伴</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method17.png" alt="" />
+							<p><a href="">黑猫警长淘公仔</a></p>
+						</div>
+						<div class="smallad">
+							<img src="img/method18.png" alt="" />
+							<p><a href="">发现新地球</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+	<div class="mid_list clearfix">
+		<div class="mid_list_content clearfix">
+			<ul>
+				<li><a href="" class="mid_list_content_left">天猫</a></li>
+				<li><a href="" class="mid_list_content_left">聚划算</a></li>
+				<li><a href="" class="mid_list_content_left">超市</a></li>
+				<li><a href="" class="mid_list_content_left">头条</a></li>
+				<li id="split"><a >|</a></li>
+				<li><a href="" class="mid_list_content_right">阿里旅行</a></li>
+				<li><a href="" class="mid_list_content_right">淘抢购</a></li>
+				<li><a href="" class="mid_list_content_right">司法拍卖</a></li>
+				<li><a href="" class="mid_list_content_right">一淘</a></li>
+				<li><a href="" class="mid_list_content_right">电器城</a></li>
+				<li><a href="" class="mid_list_content_right">美妆闪购</a></li>
+				<li><a href="" class="mid_list_content_right">阿里小智</a></li>
+				<li><a href="" class="mid_list_content_right">特色中国</a></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="pic_box">
+			<div class="pic_box_top clearfix">
+				<div class="pic_top_left" id="ad1">
+					<div class="pic" style="z-index:order;">
+						<ul>
+							<li><img src="img/ad1.png" alt="" /></li>
+							<li><img src="img/ad2.png" alt="" /></li>
+							<li><img src="img/ad3.png" alt="" /></li>
+							<li><img src="img/ad4.png" alt="" /></li>
+							<li><img src="img/ad5.png" alt="" /></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pic_top_right">
+						<img src="img/rad1.png">
+				</div>
+			</div>
+			<div class="pic_box_bot clearfix">
+				<div class="pic_bot_left" id="ad2">
+					<div class="pic">
+						<ul>
+							<li><img src="img/sad1.png" alt="" /></li>
+							<li><img src="img/sad2.png" alt="" /></li>
+							<li><img src="img/sad3.png" alt="" /></li>
+							<li><img src="img/sad4.png" alt="" /></li>
+							<li><img src="img/sad5.png" alt="" /></li>
+							<li><img src="img/sad6.png" alt="" /></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pic_bot_right">
+					<img src="img/rad2.png">
+				</div>
+			</div>
+		</div>
+		<div class="mid_right">
+			<div class="tabbox clearfix">
+				<div class="tabbox_top clearfix">
+					<ul>
+						<li class="tabbox_list point">
+							<a href="">公告</a>
+							
+						</li>
+						<li class="tabbox_list">
+							<a href="">规则</a>
+							
+						</li>
+						<li class="tabbox_list">
+							<a href="">论坛</a>
+							
+						</li>
+						<li class="tabbox_list">
+							<a href="">安全</a>
+							
+						</li>
+						<li class="tabbox_list">
+							<a href="">公益</a>
+							
+						</li>
+					</ul>
+				</div>
+				<div class="tabbox_bot">
+					<div class="tabbox_content">
+						<ul>
+							<li><a href="">[热门]淘宝众筹上线首个"零碳度假营地"</a></li>
+							<li><a href="">淘宝孕育“网红经济”</a></li>
+							<li><a href="">中国制造 浙江好产品</a></li>
+						</ul>
+					</div>
+					<div class="tabbox_content">
+						<ul>
+							<li><a href="">"全额返现"要管控啦</a></li>
+							<li><a href="">淘宝新规则发布汇总（7月）</a></li>
+							<li><a href="">炒信规则调整意见反馈</a></li>
+							<li><a href="">质量相关规则近期变更</a></li>
+						</ul>
+					</div>
+					<div class="tabbox_content">
+						<ul>
+							<li><a href="">接次文件，毁了一家店</a></li>
+							<li><a href="">账号安全神器阿里钱盾</a></li>
+							<li><a href="">新版阿里110上线了</a></li>
+							<li><a href="">卖家学违禁避免被处罚</a></li>
+						</ul>
+					</div>
+					<div class="tabbox_content">
+						<ul>
+							<li><a href="">阿里建商家全链路服务</a></li>
+							<li><a href="">个性化的消费时代来临</a></li>
+							<li><a href="">跨境贸易是中小企业机会</a></li>
+							<li><a href="">美妆行业虚假信息管控</a></li>
+						</ul>
+					</div>
+					<div class="tabbox_content">
+						<ul>
+							<a href="" class="tabbox_pic"><img src="img/gong1.png"></a>
+							<a href="" class="tabbox_pic"><img src="img/gong2.png"></a>
+							<li><a href="">为了公益high起来</a></li>
+							<li><a href="">魔豆妈妈在线申请</a></li>
+						</ul>
+					</div>
+				</div>			
+			</div><!--tabbox-->
+			<div class="mid_right_person clearfix">
+				<div class="mid_right_person_top clearfix">
+					<img src="img/head.png">
+					<div class="mid_right_person_vip">
+						<p><a href="">Hi!灼眼繁华</a></p>
+						<p><i></i><a href="">领淘宝金币抵钱</a>&nbsp;或去&nbsp;<a href="">会员俱乐部</a></p>
+					</div>
+				</div>
+				<div class="mid_right_person_btn clearfix">
+					<button class="person_btn"><i class="btn_icon"></i>登录</button>
+					<button class="person_btn">免费注册</button>
+					<button class="person_btn">免费开店</button>
+				</div>
+			</div>
+			<div class="gund">
+				<i class="gund_pic"></i>
+				<p id="mara">
+					<a href="">[推荐]|街拍|蕾哈娜都在穿连体工装</a><br>
+					<a href="">[热门]你造吗？夏天韩国麻豆都这样</a><br>
+					<a href="">[最新]八点档|眉毛凹造型，实在太</a><br>
+				</p>
+			</div>
+			<div class="nav_conv clearfix">
+				<ul class="icon_list">
+					<li style="width: 118px;height: 154px;" class="cphone">
+						<span><img src="img/phone.png" alt="" /><a href=""><br>充话费</a></span>
+					</li>
+					<li>
+						<span><img src="img/game.png" alt="" /><a href="">游戏</a></span>
+					</li>
+					<li>
+						<span><img src="img/travel.png" alt="" /><a href="">旅行</a></span>
+					</li>
+					<li>
+						<span><img src="img/safe.png" alt="" /><a href="">保险</a></span>
+					</li>
+					<li>
+						<span><img src="img/ticket.png" alt="" /><a href="">彩票</a></span>
+					</li>
+					<li>
+						<span><img src="img/movie.png" alt="" /><a href="">电影</a></span>
+					</li>
+					<li>
+						<span><img src="img/food.png" alt="" /><a href="">外卖</a></span>
+					</li>
+					<li>
+						<span><img src="img/money.png" alt="" /><a href="">理财</a></span>
+					</li>
+					<li>
+						<span><img src="img/service.png" alt="" /><a href="">服务</a></span>
+					</li>
+					<li>
+						<span><img src="img/music.png" alt="" /><a href="">音乐</a></span>
+					</li>
+					<li>
+						<span><img src="img/water.png" alt="" /><a href="">水电</a></span>
+					</li>
+					<li>
+						<span><img src="img/train.png" alt="" /><a href="">火车</a></span>
+					</li>
+				</ul>
+				<div class="chargebox clearfix">
+					<div class="phone">
+						<span></span>
+						<div class="charge_list_top clearfix">
+							<ul>
+								<li><a href="">话费充值</a></li>
+								<li><a href="">流量充值</a></li>
+								<li><a href="">固话/宽带充值</a></li>
+								<a class="charge_close">X</a>
+							</ul>
+						</div>
+						<div class="charge_list_bot">
+							<div class="charge_for"><label for="charge_for">号码</label><input type="text"/><i></i></div>
+							<div class="charge_number"><label for="charge_number">面值</label><input type="text"><i></i></div>
+							<p>售价<i></i>49-49.8</p>
+							<div class="charge_btn"><input type="button" value="立即充值" /><a href="">充话费送大奖</a></div>
+						</div>
+					</div><!--phone-->
+					<div class="game">
+						<span></span>
+						<div class="charge_list_top clearfix">
+							<ul>
+								<li><a href="">点卡</a></li>
+								<li><a href="">QQ</a></li>
+								<li><a href="">游戏币</a></li>
+								<li><a href="">网页游戏</a></li>
+								<a class="charge_close">X</a>
+							</ul>
+						</div>
+						<div class="charge_list_bot">
+							<div class="charge_for"><label for="charge_for">游戏</label><input type="text"/><i></i></div>
+							<div class="charge_number"><label for="charge_number">面值</label><input type="text"/><i></i></div>
+							<p>售价<i></i>4.9-4.98 <input type="radio"/>自动充值<input type="radio" />购买卡密</p>
+							<div class="charge_btn"><input type="button" value="立即充值" /><a href="">暴雪游戏全线特卖</a></div>
+						</div>
+					</div><!--game-->
+					<div class="travel clearfix">
+						<b></b>
+						<div class="charge_list_top clearfix">
+							<ul>
+								<li><a href="">国内机票</a></li>
+								<li><a href="">国际机票</a></li>
+								<li><a href="">酒店客栈</a></li>
+								<li><a href="">度假门票</a></li>
+								<li><a href="">火车票</a></li>
+								<a class="charge_close">X</a>
+							</ul>
+						</div>
+						<div class="ticket_box">
+							<div class="showbox clearfix">
+								<div class="land">
+									<div class="land_check"><input type="radio" />单程<input type="radio" />往返<i>港澳台请选择国际机票</i></div>
+									<div class="charge_number position"><label for="">出发</label><input type="text" /><i></i></div><span class="rarrow"></span><div class="charge_number position"><label for="">到达</label><input type="text" /><i></i></div>
+									<div class="charge_number datetime"><label for="">出发</label><input type="text" /><i></i></div>
+									<div class="charge_btn"><input type="button" value="查找" /><a href="">去啊机票放心飞</a></div>
+								</div>
+								<div class="inter">
+									<div class="land_check"><input type="radio" />单程<input type="radio" />往返</div>
+									<div class="charge_number position"><label for="">出发</label><input type="text" /><i></i></div><span class="rarrow"></span><div class="charge_number position"><label for="">到达</label><input type="text" /><i></i></div>
+									<div class="charge_number datetime"><label for="">出发</label><input type="text" /><i></i></div>
+									<div class="charge_btn"><input type="button" value="查找" /><a href="">南航特价290元起</a></div>
+								</div>
+								<div class="hotel">
+									<div class="land_check"><input type="radio" />国内/港澳台<input type="radio" />海外</div>
+									<div class="charge_number position"><label for="">入住</label><input type="text" /><i></i></div><span class="rarrow"></span><div class="charge_number position"><label for="">酒店</label><input type="text" /><i></i></div>
+									<div class="charge_number datetime"><label for="">入住</label><input type="text" /><i></i></div><span class="rarrow"></span><div class="charge_number datetime"><label for="">离店</label><input type="text" /><i></i></div>
+									<div class="charge_btn"><input type="button" value="搜索" /><a href="">五星酒店低价住</a></div>
+								</div>
+								<div class="door">
+									<div class="land_check"><input type="radio" />度假<input type="radio" />门票</div>
+									<div class="charge_number position"><label for="">出发</label><input type="text" /><i></i></div><span class="rarrow"></span><div class="charge_number position"><label for="">到达</label><input type="text" /><i></i></div>
+									<div class="charge_btn"><input type="button" value="搜索" /></div>
+								</div>
+								<div class="train">
+									<div class="charge_number position"><label for="">出发</label><input type="text" /><i></i></div><span class="rarrow"></span><div class="charge_number position"><label for="">到达</label><input type="text" /><i></i></div>
+									<div class="charge_number datetime"><label for="">出发</label><input type="text" /><i></i></div>
+									<div class="charge_btn"><input type="button" value="查找" /></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="safe">
+						<span></span>
+						<div class="charge_list_top clearfix">
+							<ul>
+								<li><a href="">车险</a></li>
+								<li><a href="">意外险</a></li>
+								<li><a href="">健康险</a></li>
+								<li><a href="">旅行险</a></li>
+								<li><a href="">财产险</a></li>
+								<a class="charge_close">X</a>
+							</ul>
+							<div class="safe_box">
+								<div class="safe_box_show">
+									<div class="car">
+										<div class="charge_number"><label for="">热门城市</label><input type="text" /><i></i></div>
+										<div class="charge_number"><label for="">保险公司</label><input type="text" /><i></i></div>
+										<div class="charge_btn"><input type="button" value="立刻报价" /><input type="button" value="快速续保" />车险活动</div>
+									</div>
+									<div class="accident">
+										<div class="charge_number"><label for="">保险类型</label><input type="text" /><i></i></div>
+										<div class="charge_number"><label for="">保险期间</label><input type="text" /><i></i></div>
+										<div class="charge_btn"><input type="button" value="查看合适的保险" /></div>
+									</div>
+									<div class="health">
+										<div class="charge_number"><label for="">保障类型</label><input type="text" /><i></i></div>
+										<div class="charge_number"><label for="">特色保障</label><input type="text" /><i></i></div>
+										<div class="charge_btn"><input type="button" value="查看合适的保险" /></div>
+									</div>
+									<div class="out">
+										<div class="charge_number"><label for="">出行地区</label><input type="text" /><i></i></div>
+										<div class="charge_number"><label for="">出行天数</label><input type="text" /><i></i></div>
+										<div class="charge_btn"><input type="button" value="查看合适的保险" /></div>
+									</div>
+									<div class="specialsafe">
+										<div class="charge_number"><label for="">水管爆裂</label><input type="text" /><i></i></div>
+										<div class="charge_btn"><input type="button" value="查看合适的保险" /></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!--safe-->
+				</div>
+			</div>
+		</div><!--midright-->
+		
+	</div><!--midlist-->
+	</div>
+<script type="text/javascript">
+	var area = document.getElementById('mara');
+	var iHeight=30;
+	var speed=50;
+	var time;
+	area.scrollTop=0;
+	area.innerHTML+=area.innerHTML;
+	function startscroll (){
+		time=setInterval("scrollUp()",speed);
+
+		area.scrollTop++;
+	}
+	function scrollUp(){
+		if (area.scrollTop % iHeight==0){
+			clearInterval(time);
+			setTimeout(startscroll,2000);
+
+		}
+		else
+		{
+			area.scrollTop++;
+			if (area.scrollTop>=area.scrollHeight/2)
+			{
+				area.scrollTop=0;
+				
+			}
+		}
+	}
+	setTimeout(startscroll,2000);		
+
+ </script>
+	</body>
+</html>
+.top {
+	width: 100%;
+}
+a:hover {
+	cursor: pointer;
+	color: #ff5400;
+}
+.clearfix {
+	overflow: auto;
+	_height: 1%
+}
+.title {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 35px;
+	z-index: 3200;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eeeeee;
+}
+.title_left {
+	width: 400px;
+	float: left;
+	height: 35px;
+	margin-left: 50px;
+}
+.title_left li,
+.title_right li {
+	padding-left: 10px;
+	float: left;
+	width: 75px;
+	height: 35px;
+	line-height: 35px;
+	text-align: left;
+}
+.title_right {
+	float: right;
+	height: 35px;
+	margin-right: 50px;
+}
+.title_left li a,
+.title_right li a {
+	color: #6d6d6d;
+}
+.ver {
+	width: 15px;
+	height: 35px;
+}
+.sperate2 {
+	border-left: 1px solid #f5ece3;
+}
+.sperate1 {
+	border-right: 1px solid #e3dedd;
+}
+.arrow {
+	background: url(img/smallarrow.png);
+	background-position: 65px;
+	background-repeat: no-repeat;
+}
+.arrow2 {
+	background: url(img/rarrow.png);
+	background-position: 65px;
+	background-repeat: no-repeat;
+}
+#mail i {
+	height: 15px;
+	width: 12px;
+	padding-right: 5px;
+}
+#mail img {
+	vertical-align: middle;
+}
+.icon i {
+	height: 16px;
+	width: 12px;
+	padding-right: 5px;
+}
+.icon img {
+	vertical-align: middle;
+}
+.personal {
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	width: 270px;
+	height: 200px;
+	border: 1px solid #EEEEEE;
+	border-top: none;
+}
+.personal_top {
+	width: 100%;
+	height: 85px;
+}
+.personal_top_left,
+.personal_top_right {
+	float: left;
+}
+.personal_top_left {
+	width: 90px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.personal_top_right {
+	width: 170px;
+}
+.personal_top_right_top {
+	text-align: right;
+	margin-bottom: 10px;
+}
+.personal_top_right_top a {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 0 5px;
+}
+.personal_top_right_mid,
+.personal_top_right_bot {
+	padding-left: 5px;
+}
+.personal_mid {
+	width: 100%;
+	margin-top: 20px;
+}
+.personal_mid a {
+	display: block;
+	width: 230px;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #e9fecf;
+	line-height: 20px;
+	border: 1px solid #ddf6be;
+}
+.personal_bot {
+	height: 75px;
+	margin-top: 10px;
+	width: 270px;
+}
+.list {
+	margin-left: 15px;
+	display: inline-block;
+	width: 240px;
+	height: 75px;
+	position: relative;
+	overflow: hidden;
+}
+.list_content {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 960px;
+	height: 70px;
+	display: inline-block;
+	float: left;
+}
+.list_content li {
+	padding-left: 0;
+	float: left;
+	width: 60px;
+	height: 70px;
+	line-height: 20px;
+	text-align: center;
+}
+.personal a:hover {
+	color: red;
+	cursor: pointer;
+}
+.ar {
+	display: inline-block;
+	width: 15px;
+	height: 60px;
+	position: absolute;
+}
+#lar {
+	float: left;
+	background: url(img/leftarrow.png) center no-repeat;
+}
+#rar {
+	float: right;
+	background: url(img/rightarrow.png) center no-repeat;
+}
+.white:hover {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.title a:hover {
+	color: #dd6f38;
+}
+.rred {
+	color: #ff372d;
+	font-weight: bold;
+}
+.mytb {
+	background-color: #fff;
+	display: none;
+	width: 90px;
+	position: absolute;
+	top: 35px;
+	border: 1px solid #ddf6be;
+	border-top: none;
+}
+#shopcar {
+	left: 636px;
+}
+#shine {
+	left: 806px;
+}
+#shop {
+	left: 981px;
+}
+#server {
+	left: 1065px;
+}
+.mytb li {
+	padding: 0;
+	height: 35px;
+}
+.mytb a {
+	display: inline-block;
+	padding-left: 5px;
+	height: 25px;
+	width: 85px;
+	margin: 5px 0;
+	line-height: 25px;
+}
+.mytb a:hover {
+	background-color: #f5f5f5;
+}
+.msgbox {
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	left: 133px;
+	top: 35px;
+	width: 290px;
+	border: 1px solid #ddf6be;
+	border-top: none;
+}
+.msgbox_top,
+.msgbox_bot {
+	height: 36px;
+	width: 100%;
+	font-size: 15px;
+}
+.msgbox_top {
+	border-bottom: 1px solid #ddf6be;
+	text-align: center;
+	font-weight: bold;
+}
+.msgbox_mid {
+	text-align: center;
+	margin-top: 10px;
+}
+.msgbox_mid p {
+	font-size: 14px;
+	width: 100%;
+}
+.msgbox_mid_bot a {
+	display: inline-block;
+	width: 144px;
+	height: 32px;
+	background-color: #fff0e8;
+	border: 1px solid #ffe8de;
+}
+.msgbox_mid_bot a:hover {
+	background-color: #ffe6da;
+	color: #6d6d6d;
+}
+.msgbox_bot {
+	border-top: 1px solid #ddf6be;
+	margin-top: 10px;
+}
+.msgbox_bot_left {
+	height: 32px;
+	width: 100px;
+	float: left;
+	position: relative;
+}
+#msg_set,
+#msg_wri {
+	display: inline-block;
+	margin-left: 15px;
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+}
+#msg_set {
+	background: url(img/set.png);
+}
+#msg_wri {
+	background: url(img/write.png);
+}
+.msgbox_bot_right {
+	float: right;
+	padding-right: 20px;
+}
+#msg_set:hover {
+	background: url(img/set2.png);
+}
+#msg_wri:hover {
+	background: url(img/write2.png);
+}
+.move {
+	height: 20px;
+	width: 50px;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: #fff;
+}
+.nav {
+	background-color: #fff;
+	display: none;
+	width: 1203px;
+	position: absolute;
+	left: 52px;
+	top: 35px;
+	border: 1px solid #ddf6be;
+	border-top: none;
+}
+.nav a {
+	height: 20px;
+	line-height: 20px;
+}
+.nav div {
+	float: left;
+	width: 300px;
+	height: 270px;
+	margin: 20px 0;
+}
+.nav h2 {
+	padding-left: 10px;
+	font-size: 18px;
+}
+.nav li {
+	float: left;
+	text-align: left;
+}
+.nav_1 h2 {
+	color: #ff5500;
+}
+.nav_1 li {
+	width: 65px;
+}
+.nav_1 a {
+	display: inline-block;
+	padding: 5px;
+}
+.nav_1 a:hover {
+	background-color: #ff5500;
+	color: #fff;
+}
+.nav_2 h2 {
+	color: #a0b959;
+}
+.nav_2 a {
+	display: inline-block;
+	padding: 5px;
+}
+.nav_2 a:hover {
+	background-color: #a0b959;
+	color: #fff;
+}
+.nav_3 h2 {
+	color: #df61ab;
+}
+.nav_3 a {
+	display: inline-block;
+	padding: 5px;
+}
+.nav_3 a:hover {
+	background-color: #df61ab;
+	color: #fff;
+}
+.nav_4 h2 {
+	color: #52a0e5;
+}
+.nav_4 a {
+	display: inline-block;
+	padding: 5px;
+}
+.nav_4 a:hover {
+	background-color: #52a0e5;
+	color: #fff;
+}
+.nav_1,
+.nav_2,
+.nav_3 {
+	border-right: 1px solid #ddf6be;
+}
+.H {
+	background: url(img/T1hOy5XhNnXXXXXXXX-9-14.gif);
+	display: inline-block;
+	height: 12px;
+	width: 10px;
+}
+.G {
+	background: url(img/T1lni5XhXXXXXXXXXX-9-14.gif);
+	display: inline-block;
+	height: 12px;
+	width: 10px;
+}
+.search {
+	width: 1190px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.logo {
+	margin-top: 30px;
+	padding-right: 100px;
+}
+.logo,
+.searchbox {
+	float: left;
+}
+.searchbox {
+	margin-top: 30px;
+}
+.searchbox li {
+	float: left;
+}
+.searchbox_top a {
+	display: inline-block;
+	width: 50px;
+	height: 22px;
+	line-height: 22px;
+	color: black;
+	text-align: center;
+}
+.searchbox_top a:hover {
+	background-color: #f9e6e6;
+}
+#bao a {
+	color: white;
+	background-color: #ff5400;
+}
+.ttb {
+	float: left;
+	width: 620px;
+	height: 36px;
+	border: 2px solid #ff5400;
+}
+.sebtn {
+	float: left;
+	height: 40px;
+	width: 100px;
+	background-color: #ff5400;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+.searchbox_bot a {
+	display: inline-block;
+	padding: 5px 3px;
+}
+#search_more {
+	padding: 0;
+	padding-left: 5px;
+	float: right;
+	width: 35px;
+	height: 18px;
+	line-height: 18px;
+	border: 1px solid #666;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+#search_more i {
+	display: inline-block;
+	width: 6px;
+	height: 9px;
+	margin-left: 3px;
+	background: url(img/mo.png);
+	background-repeat: no-repeat;
+}
+#search_more:hover {
+	color: #fff;
+	background-color: #ff5400;
+}
+.searchbox_bot a {
+	color: #666;
+}
+.mid {
+	width: 1200px;
+	margin-left: 40px;
+	position: relative;
+}
+.mid_nav_h {
+	width: 170px;
+	height: 36px;
+	background-color: #ff5400;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 36px;
+	padding-left: 20px;
+}
+.mid_nav {
+	border: 1px solid #ff5400;
+	width: 190px;
+	background-color: #fff;
+	float: left;
+}
+.mid_nav a {
+	color: #666;
+}
+.mid_nav a:hover {
+	color: #ff5400;
+}
+.mid_nav_market {
+	border-bottom: 1px solid #ff5400;
+}
+.mid_nav_market h2,
+.mid_nav_sec h2 {
+	height: 36px;
+	font-size: 14px;
+	color: #666;
+	padding-left: 10px;
+	line-height: 36px;
+}
+.mid_nav_sec h2 {
+	padding-left: 0;
+}
+.mid_nav_market i {
+	background: url(img/market.png);
+}
+.mid_nav_sec_special i {
+	background: url(img/special.png);
+}
+.mid_nav_sec_discount i {
+	background: url(img/discount.png);
+}
+.mid_nav_market i,
+.mid_nav_sec i {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.mid_nav_market_li {
+	padding-left: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.mid_nav_market li a {
+	display: inline-block;
+	width: 40px;
+}
+#ishowmore {
+	background: url(img/maarrow.png);
+	display: inline-block;
+	width: 14px;
+	height: 28px;
+	float: right;
+	margin: 0;
+}
+#showmore {
+	width: 49px;
+}
+.mid_nav_market_showmore {
+	position: relative;
+	padding-left: 8px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #fff;
+	border: 2px solid #ff5400;
+	border-right: none;
+}
+.cover {
+	display: inline-block;
+	position: absolute;
+	right: -3px;
+	z-index: 3100;
+	top: 0px;
+	width: 5px;
+	height: 26px;
+	background-color: #fff;
+}
+.mid_nav_sec_special,
+.mid_nav_sec_discount,
+.mid_nav_sec_last {
+	margin: 0 10px;
+	border-bottom: 1px solid #e6e7eb;
+}
+.mid_nav_sec li {
+	float: left;
+	width: 56px;
+	height: 30px;
+	line-height: 30px;
+}
+.mid_nav_more_box {
+	position: absolute;
+	left: 192px;
+	top: 36px;
+	z-index: 2900;
+}
+.mid_nav_more {
+	background-color: #fff;
+	display: none;
+	float: left;
+	border: 2px solid #ff5400;
+}
+.mid_nav_more a {
+	color: #666;
+	font-weight: normal;
+}
+.mid_nav_more a:hover {
+	color: #ff5400;
+}
+.mid_nav_more_left {
+	width: 500px;
+	padding: 10px;
+}
+.mid_nav_more_left_modal {
+	float: left;
+	width: 240px;
+	padding-right: 10px;
+}
+.mid_nav_more_left_modal li {
+	float: left;
+	height: 20px;
+	padding: 6px;
+}
+.mid_nav_more_left_modal h5 {
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #e6e7eb;
+}
+.title_left_a {
+	font-size: 16px;
+}
+.title_right_a {
+	display: inline-block;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	padding-right: 10px;
+}
+.mid_nav_more_left_modal i {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+	margin-right: 6px;
+	margin-bottom: 4px;
+}
+#nav1 {
+	background: url(img/market_1.png);
+}
+#nav2 {
+	background: url(img/market_2.png);
+}
+#nav3 {
+	background: url(img/market_3.png);
+}
+#nav4 {
+	background: url(img/market_4.png);
+}
+#nav5 {
+	background: url(img/market_5.png);
+}
+#nav6 {
+	background: url(img/market_6.png);
+}
+#nav7 {
+	background: url(img/market_7.png);
+}
+#nav8 {
+	background: url(img/market_8.png);
+}
+#nav9 {
+	background: url(img/market_9.png);
+}
+#nav10 {
+	background: url(img/market_10.png);
+}
+#nav11 {
+	background: url(img/market_11.png);
+}
+#nav12 {
+	background: url(img/market_12.png);
+}
+#nav13 {
+	background: url(img/market_13.png);
+}
+#nav14 {
+	background: url(img/market_14.png);
+}
+#nav15 {
+	background: url(img/market_15.png);
+}
+#nav16 {
+	background: url(img/market_16.png);
+}
+#nav17 {
+	background: url(img/market_17.png);
+}
+#nav18 {
+	background: url(img/market_18.png);
+}
+#nav19 {
+	background: url(img/market_19.png);
+}
+#nav20 {
+	background: url(img/market_20.png);
+}
+#nav21 {
+	background: url(img/market_21.png);
+}
+#nav22 {
+	background: url(img/market_22.png);
+}
+#nav23 {
+	background: url(img/market_23.png);
+}
+#nav24 {
+	background: url(img/market_24.png);
+}
+#nav25 {
+	background: url(img/market_25.png);
+}
+#nav26 {
+	background: url(img/market_26.png);
+}
+.mid_nav_more_right,.mid_nav_more_left {
+	float: left;
+}
+.mid_nav_more_right {} .adshell1 {
+	margin: 50px auto;
+	border-left: 1px solid #e6e7eb;
+}
+.smallad1 {
+	text-align: center;
+	padding: 15px;
+}
+.adshell {
+	margin: 30px auto;
+	border-left: 1px solid #e6e7eb;
+}
+.smallad {
+	text-align: center;
+	padding: 10px;
+}
+.mid_list{
+	float: left;
+	margin-left: 10px;
+}
+.mid_list_content{
+	width: 100%;
+	border-bottom: 2px solid #fe5400;
+}
+.mid_list_content li{
+	float: left;
+	width: 67px;
+	text-align: center;
+	height: 30px;
+}
+.mid_list_content li a{
+	display: inline-block;
+	padding: 5px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.mid_list_content_left{
+	color: #ff5400;
+	font-size: 16px;
+}
+.mid_list_content_left:hover{
+	background-color: #f4f4f4;
+}
+.mid_list_content_right{
+	color: #666;
+	font-size: 14px;
+}
+#split{
+	width: 30px;
+	color: #fe5400;
+}
+#split a{
+		font-size: 13px;
+}
+.pic_box{
+	float: left;
+	margin-top: 20px;
+	width: 690px;
+}
+.pic_top_left{
+	width: 518px;
+	height: 280px;
+}
+.pic_top_right,.pic_top_left,.pic_bot_right,.pic_bot_left{
+	float: left;
+}
+.pic_bot_left{
+	width: 518px;
+	height: 198px;
+}
+.pic_top_right img{
+	height: 280px;
+}
+.pic_bot_right img{
+	height: 198px;
+}
+.mid_right{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #eeeeee;
+}
+.mid_right a{
+	color: #666;
+}
+.mid_right a:hover{
+	color: #fe5400;
+}
+.mid_right li{
+	float: left;
+}
+.tabbox{
+	overflow: hidden;
+	border-bottom: 1px solid #eeeeee;
+}
+.tabbox_top{
+	background-color: #f7f7f7;
+}
+.tabbox_list{
+	border-bottom: 1px solid #eeeeee;
+	width: 59px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+}
+.tabbox_content{
+	width: 288px;
+	height: 50px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.tabbox_content li{
+	padding: 5px;
+	text-align: center;
+}
+.tabbox_bot{
+	height: 60px;
+	overflow: hidden;
+}
+.tabbox_pic{
+	display: inline-block;
+	float: left;
+	padding: 5px 10px 5px 5px;
+}
+.point{
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.mid_right_person{
+	width: 100%;
+}
+.mid_right_person_top{
+	width: 100%;
+}
+.mid_right_person img{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.mid_right_person_vip{
+	padding-top: 15px;
+	padding-left: 10px;
+	line-height: 25px;
+	float: left;
+}
+.mid_right_person_vip i{
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 3px;
+	width: 18px;
+	height: 18px;
+	background: url(img/coin.png);
+}
+.mid_right_person_btn{
+	width: 100%;
+}
+.person_btn{
+	margin: 10px 5px;
+	text-align: center;
+	line-height: 25px;
+	float: left;
+	color: #fff;
+	background-color: #fe4400;
+	width: 90px;
+	height: 25px;
+}
+.btn_icon{
+	vertical-align: middle;
+	display: inline-block;
+	width: 18px;
+	height: 25px;
+	background: url(img/icon1.png);
+}
+.gund{
+	height: 30px;
+}
+.gund_pic{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background: url(img/first.png);
+}
+.gund p{
+	display: inline-block;
+	height: 30px;
+	overflow: hidden;
+	line-height: 30px;
+}
+.nav_conv{
+	position: relative;
+}
+.icon_list li{
+	width: 58px;
+	height: 76px;
+	float: left;
+	text-align: center;
+	display: table;
+	border: 1px solid #eeeeee;
+	position: relative;
+	overflow: hidden;
+}
+.icon_list li span{
+	display: table-cell;
+	vertical-align: middle;
+}
+.icon_list li img{
+	position: relative;
+}
+.chargebox{
+/*	display: none;*/
+	position: absolute;
+	top:78px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.phone{
+	width: 298px;
+	height: 154px;
+	display: none;
+	border: 1px solid #fe5400;
+	float: left;
+}
+.phone span,.game span,.travel b,.safe span{
+	display: inline-block;
+	position: absolute;
+	top:-2px;
+	height: 4px;
+	background-color: #fff;
+}
+.phone span{
+	left: 1px;
+	width: 118px;
+}
+.game span{
+	left: 120px;
+	width: 59px;
+}
+.travel b{
+	left: 180px;
+	width: 59px;
+}
+.safe span{
+	left: 240px;
+	width: 59px;
+}
+.phone ul li,.game ul li{
+	padding: 10px 17px;
+}
+
+.charge_list_bot{
+	padding-left: 20px;
+}
+.charge_number,.charge_for{
+	display: inline-block;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 26px;
+}
+.charge_for{
+	border-bottom: none;
+}
+.phone label,.game label,.ticket_box label{
+	vertical-align: middle;
+	display: inline-block;
+	width: 40px;
+	height: 28px;
+	background-color: #f5f5f5;
+	border: none;
+}
+.safe label{
+	vertical-align: middle;
+	display: inline-block;
+	width: 80px;
+	height: 28px;
+	background-color: #f5f5f5;
+	border: none;
+}
+.charge_for input,.charge_number input{
+	vertical-align: middle;
+	display: inline-block;
+	width: 130px;
+	height: 26px;
+	border: none;
+}
+.charge_list_bot p{
+	margin:5px 0;
+}
+.charge_list_bot p i{
+	display: inline-block;
+	width: 10px;
+	height: 14px;
+	vertical-align: middle;
+	margin:0  5px;
+	background: url(img/rmb.png);
+}
+.charge_btn input{
+	width: 68px;
+	height: 26px;
+	background-color: #fe4400;
+	color: #fff;
+	margin-right: 20px;
+}
+.charge_for i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.phone .charge_for i{
+	background: url(img/record.png);
+}
+.game .charge_for i{
+	background: url(img/gamename.png);
+	margin-right: 5px;
+}
+.charge_number i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background: url(img/down.png);
+}
+.game .charge_number i{
+	margin-right: 5px;
+}
+.charge_close{
+	display: inline-block; 
+	width: 20px;
+	height: 20px;
+	float: right;
+	text-align: center;
+	line-height: 20px;
+}
+.charge_close:hover{
+	color: #666;
+	background-color: #ccc;
+
+}
+.game{
+	display: none;
+	width: 298px;
+	height: 154px;
+	border: 1px solid #fe5400;
+	float: left;
+}
+.game .charge_list_bot p input{
+	line-height: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.ticket_box .charge_number input{
+	width: 60px;
+}
+.position i{
+	background: url(img/position.png);
+}
+.rarrow{
+	display: inline-block;
+	width: 26px;
+	height: 19px;
+	background: url(img/right.png);
+}
+.datetime i{
+	background: url(img/date.png);
+}
+.right_border{
+	border-right: 1px solid #eeeeee;
+}
+.land .charge_btn,.inter .charge_btn,.hotel .charge_btn,.door .charge_btn,.train .charge_btn{
+	margin-top: 5px;
+}
+.travel{
+	display: none;
+	width: 293px;
+	height: 154px;
+	border: 1px solid #fe5400;
+	padding-left: 5px;
+}
+.travel ul li{
+	margin: 6px 3px;
+}
+.ticket_box,.safe_box{
+	position: relative;
+	overflow: hidden;
+	height: 120px;
+	width: 290px;
+}
+.showbox,.safe_box_show{
+	position: absolute;
+	width: 1450px;
+	height: 120px;
+}
+.land_check>input{
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+.land_check>i{
+	display: inline-block;
+	font-style: normal;
+	float: right;
+	margin-right: 25px;
+	color: #666;
+}
+.land,.inter,.door,.hotel,.train,.car,.accident,.health,.out,.specialsafe{
+	display: inline-block;
+	width: 290px;
+	height: 120px;
+	float: left;
+}
+.safe ul li{
+	margin: 10px 10px;
+}
+.safe{
+	display: none;
+	width: 293px;
+	height: 154px;
+	border: 1px solid #fe5400;
+	padding-left: 5px;
+}
+.safe .charge_btn{
+	margin-top: 10px;
+}
+.accident .charge_btn input,.health .charge_btn input,.out .charge_btn input,.specialsafe .charge_btn input{
+	width: 100px;
+}
+
+$(document).ready(function(){
+	$("#personalx").mouseover(function(){
+		$("#pp").show();
+	}).mouseout(function(){
+		$("#pp").hide();
+	});
+	$("#pp").mouseover(function(){
+		$("#pp").show();
+	}).mouseout(function(){
+		$("#pp").hide();
+	});
+	var pages=4,
+		i=1,
+		$list=$(".list_content"),
+		$l_width=$(".list").width();
+	$("#lar").click(function(){
+		if (!$list.is(":animated"))
+		{
+			if (i!=1)
+			{
+				$list.animate({left:"+="+$l_width});
+				i--;
+			}
+			else
+			{
+				$list.animate({left:"-="+$l_width*(pages-1)});
+				i=4;
+			}
+		}
+		return false;
+	});
+	$("#rar").click(function(){
+		if (!$list.is(":animated"))
+		{
+			if (i!=pages)
+			{
+				$list.animate({left:"-="+$l_width});
+				i++;
+			}
+			else
+			{
+				$list.animate({left:"+="+$l_width*(pages-1)});
+				i=1;
+			}
+		}
+		return false;
+	});
+	$("#mytao").mouseover(function(){
+			$("#shopcar").show();
+		}).mouseout(function(){
+			$("#shopcar").hide();
+		});
+	$("#myshine").mouseover(function(){
+			$("#shine").show();
+			$("#myshine i img").attr("src","img/shou2.png");
+		}).mouseout(function(){
+			$("#shine").hide();
+			$("#myshine i img").attr("src","img/shou.png");
+		});
+	$("#seller").mouseover(function(){
+			$("#shop").show();
+		}).mouseout(function(){
+			$("#shop").hide();
+		});
+	$("#connect").mouseover(function(){
+			$("#server").show();
+		}).mouseout(function(){
+			$("#server").hide();
+		});
+	var x=10;
+	var y=10
+	var $move1=$("#msg_wri");
+	var $move2=$("#msg_set");
+	var $pmove=$(".msgbox_bot_left");
+	$move1.mouseover(function(e){
+		var msg="意见反馈";
+		var mdiv="<div id='imove1'>"+msg+"</div>";
+		$pmove.append(mdiv);
+		$("#imove1").css({
+			"top":(e.pageY-306)+"px",
+			"left":(e.pageX-132)+"px"
+		}).addClass("move").show("fast");
+	}).mouseout(function(){
+		$("#imove1").remove();
+	});
+	$move2.mouseover(function(e){
+		var msg="消息设置";
+		var mdiv="<div id='imove2'>"+msg+"</div>";
+		$pmove.append(mdiv);
+		$("#imove2").css({
+			"top":(e.pageY-306)+"px",
+			"left":(e.pageX-129)+"px"
+		}).addClass("move").show("fast");
+	}).mouseout(function(){
+		$("#imove2").remove();
+	});
+	$("#mail").mouseover(function(){
+		$(".msgbox").show();
+	}).mouseout(function(){
+		$(".msgbox").hide();
+	});
+	$("#mynav").mouseover(function(){
+		$(".nav").show();
+	}).mouseout(function(){
+		$(".nav").hide();
+	});
+	$("#search_more").mouseover(function(){
+		$("#search_more i").css("background","url(img/mo2.png)");
+	}).mouseout(function(){
+		$("#search_more i").css("background","url(img/mo.png)");
+	});
+	$(".mtao").click(function(){
+		var $sp=$(this).siblings().children();
+		var $btn=$(".sebtn");
+		$sp.css({"color":"black","background-color":"white"});
+		$(this).children().css({"color":"white","background-color":"#ff5400"});
+		$(".ttb").css("border-color","#ff5400");
+		$btn.css("background-color","#ff5400");
+		$("#search_more").show();
+		return false;
+	});
+	$("#tml").click(function(){
+		var $btn=$(".sebtn");
+		var $sp=$(this).siblings().children();
+		$sp.css({"color":"black","background-color":"white"});
+		$(this).children().css({"color":"white","background-color":"#c60000"});
+		$(".ttb").css("border-color","#c60000");
+		$btn.css("background-color","#c60000");
+		$("#search_more").hide();
+		return false;
+	});
+	//左边导航栏效果
+	var $navs=$(".mid_nav_market li"),
+		$mod=$(".mid_nav_more"),
+		$mar=$(".mid_nav_market"),
+		$icon=$("#ishowmore");
+				
+	$mod.each(function(index){
+		this.id=index;
+	});
+	$navs.each(function(index){
+		this.id=index;
+		var $cover=$(this).children();
+		var $lists=$(this).siblings();
+		var $cover1=$cover[$cover.length-1];
+		var $icover=$($cover1);
+		$(this).mouseover(function(){
+			var tid=0;
+			tid=this.id;
+			$mar.css("background-color","#f9e6e6");
+			$icon.hide();
+			$icover.show();
+			$lists.removeClass("mid_nav_market_showmore").addClass("mid_nav_market_li");
+			$(this).addClass("mid_nav_market_showmore").removeClass("mid_nav_market_li");
+			$mod.each(function(){
+				if (tid==this.id)
+				{
+					$(this).show();
+				}
+			});
+		}).mouseout(function(){
+			var tid=0;
+			tid=this.id;
+			
+			$(this).addClass("mid_nav_market_li").removeClass("mid_nav_market_showmore");
+			$mar.css("background-color","#fff");
+			$icon.show();
+			$icover.hide();
+			$mod.each(function(){
+				if (tid==this.id)
+				{
+					$(this).hide();
+				}
+			});
+		});
+	});
+	$mod.each(function(){
+		$(this).mouseover(function(){
+			$(this).show();
+			var hid=this.id;
+			$navs.each(function(){
+				if (hid==this.id)
+				{
+					var $cover=$(this).children();
+					var $lists=$(this).siblings();
+					var $cover1=$cover[$cover.length-1];
+					var $icover=$($cover1);
+					$icon.hide();
+					$icover.show();
+					$mar.css("background-color","#f9e6e6");
+					$lists.removeClass("mid_nav_market_showmore").addClass("mid_nav_market_li");
+					$(this).addClass("mid_nav_market_showmore").removeClass("mid_nav_market_li");
+				}
+			});
+			}).mouseout(function(){
+				var hid=this.id;
+				$navs.each(function(){
+					if (hid==this.id)
+					{
+						var $cover=$(this).children();
+						var $lists=$(this).siblings();
+						var $cover1=$cover[$cover.length-1];
+						var $icover=$($cover1);
+						$(this).addClass("mid_nav_market_li").removeClass("mid_nav_market_showmore");
+						$mar.css("background-color","#fff");
+						$icon.show();
+						$icover.hide();
+					}
+				});
+				$(this).hide();
+			});
+		});
+		var $midlist=$(".tabbox_list");
+		var $midcontent=$(".tabbox_content");
+		$midcontent.each(function(index){
+			this.id=index;
+		});
+		$midlist.each(function(index){
+			this.id=index;
+			$(this).mouseover(function(){
+				var $midlists=$(this).siblings();
+				var kid=this.id;
+				$midlists.removeClass("point");
+				$(this).addClass("point");
+				$midcontent.each(function(){
+					if (kid==this.id)
+					{
+						var $midcontents=$(this).siblings();
+						$midcontents.hide();
+						$(this).show();
+					}
+				});
+				
+			});
+		});
+		$(".person_btn").mouseover(function(){
+			$(this).css("background-color","#f22d00");
+		}).mouseout(function(){
+			$(this).css("background-color","#fe4400");
+		});
+		var $jump=$(".icon_list li");
+		var $cha=$(".chargebox");
+		$jump.each(function(index){
+			this.id=index;
+			$(this).mouseover(function(){
+				var $img=$(this).find("img");
+				if (this.id<4)
+				{
+					var $phone=$(".cphone");
+					$phone.css("height",76);
+					$phone.find("img").attr("src","img/sphone.png");
+					if (!$img.is(":animated"))
+					{
+						$img.animate({top:"-=50",opacity:"0"},100,function(){
+							$img.css("top",30);
+							$img.animate({top:"-=30",opacity:"1"},100);
+						});	
+					}
+					if (this.id==0)
+					{
+						var $first=$(".phone");
+						$first.siblings().hide();
+						$(this).siblings().css("border-color","#eeeeee");
+						$(this).css({"border-color":"#fe5400"});
+						$(this).css("border-bottom-color","#fff");
+						$cha.show();
+						$first.show();
+						$first.find(".charge_close").click(function(){
+							$cha.hide();
+							$first.hide();
+							$phone.css({"border-color":"#eeeeee","height":154});
+							$phone.find("img").attr("src","img/phone.png");
+							$jump.css("border-color","#eeeeee");
+						});
+					}
+					if (this.id==1)
+					{
+						var $second=$(".game");
+						$second.siblings().hide();
+						$(this).siblings().css("border-color","#eeeeee");
+						$(this).css({"border-color":"#fe5400"});
+						$(this).css("border-bottom-color","#fff");
+						$cha.show();
+						$second.show();
+						$second.find(".charge_close").click(function(){
+							$cha.hide();
+							$second.hide();
+							$phone.css({"border-color":"#eeeeee","height":154});
+							$phone.find("img").attr("src","img/phone.png");
+							$jump.css("border-color","#eeeeee");
+						});
+					}
+					if (this.id==2)
+					{
+						var $third=$(".travel");
+						$third.siblings().hide();
+						$(this).siblings().css("border-color","#eeeeee");
+						$(this).css({"border-color":"#fe5400"});
+						$(this).css("border-bottom-color","#fff");
+						$cha.show();
+						$third.show();
+						$third.find(".charge_close").click(function(){
+							$cha.hide();
+							$second.hide();
+							$phone.css({"border-color":"#eeeeee","height":154});
+							$phone.find("img").attr("src","img/phone.png");
+							$jump.css("border-color","#eeeeee");
+						});
+					}
+					if (this.id==3)
+					{
+						var $fourth=$(".safe");
+						$fourth.siblings().hide();
+						$(this).siblings().css("border-color","#eeeeee");
+						$(this).css({"border-color":"#fe5400"});
+						$(this).css("border-bottom-color","#fff");
+						$cha.show();
+						$fourth.show();
+						$fourth.find(".charge_close").click(function(){
+							$cha.hide();
+							$fourth.hide();
+							$phone.css({"border-color":"#eeeeee","height":154});
+							$phone.find("img").attr("src","img/phone.png");
+							$jump.css("border-color","#eeeeee");
+						});
+					}
+				}
+				else
+				{
+					if (!$img.is(":animated"))
+					{
+						$img.animate({top:"-=50",opacity:"0"},100,function(){
+							$img.css("top",30);
+							$img.animate({top:"-=30",opacity:"1"},100);
+						});	
+					}
+				}
+			});
+		});
+		var $ticket=$(".travel .charge_list_top li");
+		var $show=$(".showbox");
+		$ticket.each(function(index){
+			this.id=index;
+			$(this).mouseover(function(){
+				if (this.id==0)
+				{
+					if (!$show.is(":animated"))
+					{
+						$show.animate({left:'0px'},"fast");
+					}
+				}
+				if (this.id==1)
+				{
+					if (!$show.is(":animated"))
+					{
+						$show.animate({left:'-290px'},"fast");
+					}
+				}
+				if (this.id==2)
+				{
+					if (!$show.is(":animated"))
+					{
+						$show.animate({left:'-580px'},"fast");
+					}
+				}
+				if (this.id==3)
+				{
+					if (!$show.is(":animated"))
+					{
+						$show.animate({left:'-870px'},"fast");
+					}
+				}
+				if (this.id==4)
+				{
+					if (!$show.is(":animated"))
+					{
+						$show.animate({left:'-1160px'},"fast");
+					}
+				}
+			});
+		});
+		var $safes=$(".safe .charge_list_top li");
+		var $sshow=$(".safe_box_show");
+		$safes.each(function(index){
+			this.id=index;
+			$(this).mouseover(function(){
+				if (this.id==0)
+				{
+					if (!$sshow.is(":animated"))
+					{
+						$sshow.animate({left:'0px'},"fast");
+					}
+				}
+				if (this.id==1)
+				{
+					if (!$sshow.is(":animated"))
+					{
+						$sshow.animate({left:'-290px'},"fast");
+					}
+				}
+				if (this.id==2)
+				{
+					if (!$sshow.is(":animated"))
+					{
+						$sshow.animate({left:'-580px'},"fast");
+					}
+				}
+				if (this.id==3)
+				{
+					if (!$sshow.is(":animated"))
+					{
+						$sshow.animate({left:'-870px'},"fast");
+					}
+				}
+				if (this.id==4)
+				{
+					if (!$sshow.is(":animated"))
+					{
+						$sshow.animate({left:'-1160px'},"fast");
+					}
+				}
+			});
+		});
+});
